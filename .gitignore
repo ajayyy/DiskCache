@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Databases
+databases/sponsorTimes.db
+databases/sponsorTimes.db-shm
+databases/sponsorTimes.db-wal
+databases/private.db
+databases/private.db-shm
+databases/private.db-wal
+databases/sponsorTimesReal.db
+test/databases/sponsorTimes.db
+test/databases/sponsorTimes.db-shm
+test/databases/sponsorTimes.db-wal
+test/databases/private.db
+databases/cache
+docker/database-export
+
+# Config files
+config.json
+docker/database.env
+
+# Other
+working
+
+# Mac files
+.DS_Store
+/.idea/
+/dist/
