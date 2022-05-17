@@ -10,4 +10,4 @@ COPY --from=builder ./node_modules ./node_modules
 COPY --from=builder ./dist ./dist
 
 EXPOSE 8080
-CMD node /usr/src/app/dist/src/index.js
+CMD node dist/src/index.js
