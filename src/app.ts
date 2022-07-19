@@ -14,7 +14,7 @@ export function createServer(callback: () => void): Server {
     app.use(router);
 
     router.use(loggerMiddleware);
-    router.use(express.json());
+    router.use(express.json({ limit: "500mb" }));
 
     // Setup pretty JSON
     if (config.mode === "development") app.set("json spaces", 2);
